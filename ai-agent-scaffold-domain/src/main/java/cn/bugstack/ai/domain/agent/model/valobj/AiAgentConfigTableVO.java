@@ -11,7 +11,7 @@ public class AiAgentConfigTableVO {
 
     private Agent agent;
 
-    private Module modulel;
+    private Module module;
 
     @Data
     private static class Agent{
@@ -29,6 +29,7 @@ public class AiAgentConfigTableVO {
         private String agentDesc;
     }
 
+    @Data
     public static class Module{
 
         private AiApi aiApi;
