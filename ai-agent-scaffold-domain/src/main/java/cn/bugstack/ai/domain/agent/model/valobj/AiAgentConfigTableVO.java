@@ -14,7 +14,7 @@ public class AiAgentConfigTableVO {
     private Module module;
 
     @Data
-    private static class Agent{
+    public static class Agent{
         /**
          * 智能体ID
          */
