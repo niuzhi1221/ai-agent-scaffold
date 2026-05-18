@@ -1,4 +1,6 @@
 package cn.bugstack.ai.domain.agent.service.chat;
 
-public class ChatService implements IChatService{
+import cn.bugstack.ai.domain.agent.service.IChatService;
+
+public class ChatService implements IChatService {
 }
